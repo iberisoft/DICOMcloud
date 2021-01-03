@@ -7,7 +7,7 @@ namespace DICOMcloud.Wado.Controllers
     {
         public ActionResult Index()
         {
-            return Redirect ( "/swagger/" ) ;
+            return Redirect ( "/DICOMcloud/swagger/" ) ;
         }
    }
 }
